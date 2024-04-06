@@ -1,0 +1,294 @@
+*{
+margin: 0;
+padding: 0;
+}
+::-webkit-scrollbar{
+width: 10px;
+}
+::-webkit-scrollbar-track{
+  background-color: rgb(0, 0, 0);
+}
+::-webkit-scrollbar-thumb{
+ background-color:  rgb(208, 45, 45);
+ border-radius: 6px;
+}
+body{
+min-height: 100%;
+background-color: rgb(55, 55, 55);
+font-family: "Roboto", sans-serif;;
+}
+.first{
+    position: relative;
+    background: url("https://assets.nflxext.com/ffe/siteui/vlv3/2e07bc25-8b8f-4531-8e1f-7e5e33938793/e4b3c14a-684b-4fc4-b14f-2b486a4e9f4e/IN-en-20240219-popsignuptwoweeks-perspective_alpha_website_large.jpg")no-repeat center center/cover ;
+ min-height: 97vh;
+ opacity: 6px;
+ box-shadow: 1px 0px 700000rem 170px rgb(9, 9, 9) inset;
+}
+#nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin-top: 0;
+/* position: absolute; */
+}
+.langsign{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    min-width: 20vw;
+    padding: 2rem;
+   margin-right: 1rem;
+}
+.logo{
+margin-top: 0px;
+margin-left: 5rem;
+padding-top: 0;
+}
+#logo{
+height: 10rem;
+padding-top: 0;
+}
+#selectLang{
+display: inline;
+background-color: black;
+background: none;
+color: aliceblue;
+border: 2px solid  ;
+padding: 0.3rem;
+border-radius: 4px;
+font-size: large;
+margin: 7px;
+margin-right: 1.5rem;
+}
+option{
+background: black;
+}
+#sign{
+    border-radius: 4px;
+font-size: large;
+    padding: 0.3rem;
+    background-color: rgb(208, 45, 45);
+    color: aliceblue;
+}
+#content{
+color: aliceblue;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+font-weight: 500;
+min-height: 50vh;
+margin-top: 3rem;
+gap: 1.6rem;
+font-size: 1.7rem;
+text-shadow:0px 0px 9px rgb(0, 0, 0),0 0 20px rgb(0, 0, 0),0 0 30px rgb(0, 0, 0) ;
+padding-top: 1.7rem;
+}
+#email{
+    position: relative;
+background: transparent;
+border: 2px solid rgb(95, 93, 93);
+border-radius: 4px;
+margin-right: 0.8rem;
+color: aliceblue;
+height: 3rem;
+font-size: 1.3rem;
+
+}
+::placeholder{
+    color: white;
+    position: initial;
+    margin-left: 1rem;
+    padding-left: 2rem;
+    left: 0.5rem;
+}
+.email{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.firstb{
+    border-radius: 4px;
+    font-size: large;
+        padding: 0.3rem;
+        background-color: rgb(208, 45, 45);
+        color: aliceblue;
+        height: 3rem;
+}
+button{
+cursor: pointer;
+}
+/* second */
+.bc{
+    position: relative;
+ min-height: 75vh;
+ display: flex;
+ color: white;
+ flex-wrap: wrap;
+ background-color: black;
+ margin-top: 0.5rem;
+ justify-content: space-evenly;
+ opacity: 6px;
+}
+.leftcon{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   margin-left: 4rem;
+   gap: 0.5rem;
+   font-size: 1.5rem;
+}
+.rightcon{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: start;
+   gap: 0.5rem;
+   font-size: 1.5rem;
+}
+.third-child1{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.cards{position: absolute;
+  top: 0;
+left: 0;
+overflow: clip;
+z-index: 1;
+
+}
+.focards{position: absolute;
+  top: 0;
+left: 0;
+overflow: clip;
+z-index: 1;
+
+}
+.card{
+height:fit-content;
+display: flex;
+border: 2px solid rgb(154, 153, 153);
+width:20rem;
+align-items: center;
+padding: 0.5rem;
+padding-left: 2rem;
+gap: 1rem;
+position:absolute;
+bottom:8rem;
+background-color: black;
+border-radius: 10px;
+}
+#cardimage{
+width: 4rem;
+height: 5rem;
+}
+.over{
+position: absolute;
+bottom: 31%;
+width: 30.5vw;
+height:41vh;
+right: 11rem;
+z-index: 1;
+}
+.foover{
+position: absolute;
+bottom: 40%;
+width: 26vw;
+height:46vh;
+right: 14rem;
+z-index: 0;
+/* object-fit: cover; */
+}
+/* sixth */
+.sbc{
+    margin-top:0.5rem ;
+    color: white;
+    background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* width: min-content; */
+  font-size: 1rem;
+  padding: 1rem;
+}
+.sixth{
+margin-top: 1rem;    
+background-color: rgb(68, 66, 66);
+height: 2rem;
+display: flex;
+justify-content: space-between;
+font-size: 1.5rem;
+padding: 1.5rem;
+width: 60rem;
+border-radius: 4px;
+
+}
+.sicon2,.sicon3,.sicon4,.sicon5{
+    width: 61rem;
+    border-radius: 3px;
+    margin-top: 0.2rem;
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: rgb(253, 254, 255);
+    background-color:rgb(68, 66, 66);
+    transition:transform 1 cubic-bezier(0.19, 1, 0.22, 1);
+}
+.sixth:hover{
+background-color: rgb(94, 92, 92) ;
+cursor: pointer;
+}
+/* seven */
+.seven{
+display: flex;
+align-items: flex-start;
+
+/* padding-left; */
+margin-left: 4rem;
+/* font-size: 2rem; */
+width: fit-content;
+padding: 4rem;
+background-color: black;
+margin-top: 0.7rem;
+color: rgb(160, 156, 156);
+flex-direction: column;
+}
+.seven-main{
+background-color: black;
+/* padding: 1rem; */
+}
+.seven-child2{
+display: flex;
+justify-content: space-evenly;
+gap: 14rem;
+}
+.s{display: block;
+/* margin: 0rem 0rem 0rem 0rem; */
+width: fit-content;
+}
+a{
+display: block;
+width: fit-content;
+margin: 1rem;
+margin-left: 0;
+/* text-decoration: none; */
+list-style: none;
+color: rgb(183, 180, 180);
+font-size: 1rem;
+}
+.se{
+margin-left: 0;
+padding-left: 0;
+padding-top: 0;
+padding-bottom: 1rem;
+/* border: 1px solid white; */
+}
+.display{
+  display: none;
+}
+.sL{
+  margin-left: 0;
+  padding-left: 0;
+}
